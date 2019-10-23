@@ -1,7 +1,7 @@
 FROM debian:stretch-slim
 
 # Consul options
-ENV CONSUL_TEMPLATE_VERSION=0.19.5 CONSUL_SERVER=127.0.0.1:8500
+ENV CONSUL_TEMPLATE_VERSION=0.22.0 CONSUL_SERVER=127.0.0.1:8500
 
 # Consul-template install
 RUN apt-get update && \
